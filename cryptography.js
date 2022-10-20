@@ -53,4 +53,7 @@ console.log(enigma("happy birthday"))
 console.log(dEnigma("icstd iqadspnm"))//should happy birthday
 let answer = enigma("the quick brown fox jumped over the lazy dog")
 console.log(answer)
+console.log(dEnigma(answer))//tested methods
+answer = enigma("I love cryptography")
+console.log(answer)
 console.log(dEnigma(answer))
